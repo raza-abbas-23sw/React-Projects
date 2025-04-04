@@ -1,0 +1,300 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  nav {
+    background-color: #343a40;
+  }
+  .intro-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #222, #444);
+    color: white;
+    text-align: center;
+    animation: fadeInUp 1.2s ease-in-out;
+  }
+  
+  .intro-head {
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff4a75;
+    letter-spacing: 2px;
+    animation: slideIn 1.2s ease-in-out;
+  }
+  
+  .intro-para {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #ddd;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .highlight {
+    color: #ffda00;
+    font-weight: bold;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .featured-projects {
+    padding: 60px 0;
+    background: linear-gradient(135deg, #222, #444);
+    color: white;
+  }
+  
+  .featured-head {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff4a75;
+    animation: fadeIn 1.2s ease-in-out;
+  }
+  
+  .project-card {
+    border-radius: 12px;
+    overflow: hidden;
+    background: #333;
+    color: white;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 74, 117, 0.4);
+  }
+  
+  .card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ffda00;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  .view-btn {
+    background: #ff4a75;
+    border: none;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .view-btn:hover {
+    background: #ffda00;
+    color: #333;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover,
+  .btn-secondary:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffda00;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  .skill-card {
+    background: linear-gradient(135deg, #222, #444);
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .skill-img {
+    width: 70px;
+    height: 70px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .skill-card:hover .skill-img {
+    transform: scale(1.1);
+  }
+  
+  .skill-name {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+  
+  .contact-container {
+    background: linear-gradient(135deg, #ff4a75, #a30a7b);
+    border-radius: 15px;
+    padding: 30px;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .contact-text {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-btn {
+    background: #ffda00;
+    color: #222;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .contact-btn:hover {
+    background: white;
+    color: #222;
+    transform: scale(1.1);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .social-media-bar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    animation: fadeInUp 0.8s ease-in-out;
+  }
+  
+  .social-icon {
+    color: white;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .github:hover {
+    color: #333;
+  }
+  
+  .linkedin:hover {
+    color: #0077b5;
+  }
+  
+  .twitter:hover {
+    color: #1da1f2;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
